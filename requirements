@@ -1,0 +1,7 @@
+pip install pandas
+pip install numpy
+pip install seaborn
+pip install matplotlib
+pip install Logistic Regression
+pip install Random Forest
+pip install Sklearn
