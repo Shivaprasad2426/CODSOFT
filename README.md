@@ -4,11 +4,12 @@ This repository contains my work for the **CodSoft Data Science Internship**. Th
 
 ## 📌 Projects Included:
 1. **Titanic Survival Prediction** – Classification model predicting passenger survival.
-2. **Sales Prediction** – Forecasting sales using machine learning.
+2. **Movie Rating Prediction** – Regression model predicting movie ratings.
 3. **Credit Card Fraud Detection** – Identifying fraudulent transactions.
 
+
 ## 📂 Repository Structure:
-CODSOFT/ ├── Titanic_Survival/ │ ├── titanic_model.ipynb │ ├── titanic_data.csv │ ├── README.md  ├── README.md ├── Sales_Prediction/ │ ├── sales_model.ipynb │ ├── sales_data.csv │ ├── README.md ├── Credit_Card_Fraud_Detection/ │ ├── fraud_model.ipynb │ ├── creditcard_data.csv │ ├── README.md
+CODSOFT/ ├── Titanic_Survival/ │ ├── titanic_model.ipynb │ ├── titanic_data.csv │ ├── README.md ├── Movie_Rating_Prediction/ │ ├── movie_rating_model.ipynb │ ├── imdb_data.csv ││ ├── README.md ├── Credit_Card_Fraud_Detection/ │ ├── fraud_model.ipynb │ ├── creditcard_data.csv │ ├── README.md
 
 ## 📜 How to Run:
 1. Clone the repository:  https://github.com/Shivaprasad2426/CODSOFT.git
