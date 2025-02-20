@@ -83,24 +83,44 @@ The **Titanic Survival Prediction** project aims to predict whether a passenger 
 
 
 
+---
 
 
-# 📊 Sales Prediction
+# 🎬 Movie Rating Prediction
 
-## 📌 Project Overview
-This project forecasts sales using historical data and regression techniques.
+## 📌 Overview
+This project predicts movie ratings based on factors like genre, director, and actors.
 
 ## 📂 Dataset
-- [Sales Prediction Dataset](https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/input)
+- Source: [IMDB Movies Dataset](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
+- Key Features: `Genre`, `Director`, `Actors`, `Budget`
+- Target Variable: `Rating` (IMDB score)
 
-## 🚀 Technologies Used
-- Python, Pandas, NumPy
-- Scikit-learn (Linear Regression, Random Forest)
-- Matplotlib & Seaborn
+## 🛠️ Technologies Used
+- **Python** (pandas, NumPy, seaborn, scikit-learn)
+- **Machine Learning Model:** Linear Regression
+
+## 📊 Exploratory Data Analysis (EDA)
+- Checked missing values and handled categorical data.
+- Plotted correlation matrix and distributions.
+
+## 🔥 Model Building
+- Feature encoding applied using `LabelEncoder`.
+- **Trained models**: Linear Regression, Decision Trees.
+- **Evaluation**: RMSE, R2 Score.
+
+## 🎯 Results
+- **Best Model**: Linear Regression (RMSE: 0.85)
+- Scatter plot & residual analysis included.
 
 ## 📜 How to Run
-1. Open `sales_model.ipynb` in Jupyter Notebook.
-2. Run all cells to preprocess data, train the model, and visualize predictions.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/CODSOFT.git
+
+
+
+
 
 
 # 💳 Credit Card Fraud Detection
